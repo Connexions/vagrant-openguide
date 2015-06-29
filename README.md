@@ -40,8 +40,13 @@ Now go to [openguide.dev] (http://openguide.dev/) to see your new VM running!
 Make sure you are in your project directory and clone the following into ``www/``:
 * [OpenGuide Backend] (https://github.com/Connexions/openguide_backend)
 * [OpenGuide Frontend] (https://github.com/Connexions/openguide_frontend)
+
+Delete the default ``openguide_frontend`` directory and all of its contents
 ```sh
 cd www/
+sudo rm -r openguide_frontend
+```
+```sh
 git clone https://github.com/Connexions/openguide_backend.git
 git clone https://github.com/Connexions/openguide_frontend.git
 ```
