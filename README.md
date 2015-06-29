@@ -61,4 +61,4 @@ You should now see the production version of OpenGuide at openguide.dev
 All files within the ``www/`` directory are automatically synced on ``vagrant up``.
 To develop locally with automatic reload make sure you are in the ``www/openguide_frontend`` directory and run ``ember serve`` from your HOST machine.
 
-Go to [localhost:4200] (localhost:4200) in your browser.
+Go to [localhost:4200] (http://localhost:4200) in your browser.
