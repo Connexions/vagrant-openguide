@@ -1,18 +1,22 @@
 # Requirements
+Use the following links to download and install the necessary software
 * [VirtualBox] (https://www.virtualbox.org/wiki/Downloads)
 * [Vagrant] (http://www.vagrantup.com/downloads.html) 1.7.2
 * ember-cli 0.2.3
 
 # Installing Vagrant
 After installing VirtualBox and Vagrant run ``vagrant -v``
+
 If you see
+
 ```sh
 Installed Version: 1.7.2
 Latest Version: 1.7.2
 ```
+
 then vagrant is installed and working.
 
-# Install and Provision OpenGuide Vagrant Box
+# Clone OpenGuide Vagrant Box
 Clone the vagrant-openguide repository
 ```sh
 git clone https://github.com/Connexions/vagrant-openguide.git openguide
@@ -32,4 +36,17 @@ Add the following line at the end of the file
 ```
 Now go to [openguide.dev] (http://openguide.dev/) to see your new VM running!
 
-# Clone OpenGuide projects
+# Clone OpenGuide Projects
+Make sure you are in your project directory and clone the following into ``www/``:
+* [OpenGuide Backend] (https://github.com/Connexions/openguide_backend)
+* [OpenGuide Frontend] (https://github.com/Connexions/openguide_frontend)
+```sh
+cd www/
+git clone https://github.com/Connexions/openguide_backend.git
+git clone https://github.com/Connexions/openguide_frontend.git
+```
+# Install Ember-cli dependencies
+```sh
+cd openguide_frontend
+npm install && bower install
+```
