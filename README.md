@@ -55,3 +55,10 @@ git clone https://github.com/Connexions/openguide_frontend.git
 cd openguide_frontend
 npm install && bower install
 ```
+You should now see the production version of OpenGuide at openguide.dev
+
+# Developing Locally
+All files within the ``www/`` directory are automatically synced on ``vagrant up``.
+To develop locally with automatic reload make sure you are in the ``www/openguide_frontend`` directory and run ``ember serve`` from your HOST machine.
+
+Go to [localhost:4200] (localhost:4200) in your browser.
