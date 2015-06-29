@@ -17,11 +17,20 @@ Latest Version: 1.7.2
 then vagrant is installed and working.
 
 # Clone OpenGuide Vagrant Box
-If this is your first time loading the openguide vagrant box then you will need to register an account with [Atlas Hashicorp] (https://atlas.hashicorp.com/account/new) to have access to the vagrant box image.
+If this is your first time loading the openguide vagrant box then you will need to register an account with [Atlas Hashicorp] (https://atlas.hashicorp.com/account/new) to have access to the vagrant box image. You will then need to email me at zach.roehr@rice.edu with your Atlas username and I will add you as a collaborator on Atlas. You will NOT be able to complete the rest of the steps without me assigning you as a collaborator on Atlas.
 
 Clone the vagrant-openguide repository
 ```sh
 git clone https://github.com/Connexions/vagrant-openguide.git openguide
+cd openguide
+```
+## First time users
+After creating an account with Atlas, you will need to run ``vagrant login``.
+This will ask you for the username and password you created with Atlas.
+
+## All Users
+Make sure you are in the project directory and run ``vagrant up``
+```sh
 cd openguide
 vagrant up
 ```
