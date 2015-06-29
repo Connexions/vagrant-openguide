@@ -1,7 +1,7 @@
 # Requirements
-[VirtualBox] (https://www.virtualbox.org/wiki/Downloads)
-[Vagrant] (http://www.vagrantup.com/downloads.html) 1.7.2
-ember-cli 0.2.3
+* [VirtualBox] (https://www.virtualbox.org/wiki/Downloads)
+* [Vagrant] (http://www.vagrantup.com/downloads.html) 1.7.2
+* ember-cli 0.2.3
 
 # Installing Vagrant
 After installing VirtualBox and Vagrant run ``vagrant -v``
