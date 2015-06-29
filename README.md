@@ -17,14 +17,14 @@ Latest Version: 1.7.2
 then vagrant is installed and working.
 
 # Clone OpenGuide Vagrant Box
+If this is your first time loading the openguide vagrant box then you will need to register an account with [Atlas Hashicorp] (https://atlas.hashicorp.com/account/new) to have access to the vagrant box image.
+
 Clone the vagrant-openguide repository
 ```sh
 git clone https://github.com/Connexions/vagrant-openguide.git openguide
 cd openguide
 vagrant up
 ```
-If this is your first time loading the openguide vagrant box then you will need to register an account with [Atlas Hashicorp] (https://atlas.hashicorp.com/account/new) to have access to the vagrant box image.
-
 # Edit Hosts file
 You will need to edit the ``/etc/hosts`` file of your HOST's machine.
 ```sh
